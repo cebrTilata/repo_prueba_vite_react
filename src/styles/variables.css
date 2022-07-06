@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Oxygen:wght@700&family=Zen+Maru+Gothic:wght@500&display=swap'); 
+
+:root{
+    /*VARIABLES COLOR*/
+    --clrFondo: #F8F4F9;
+    --clrPrimario: #fff;
+    --clrBtnPrimario: #1b365d;
+    --clrBtnSecundario: #af272f;
+    --clrBtnTerciario: #74848C;
+    --clrAux1: #f44336;
+    --clrAux2: #e91e63;
+    --clrAux3: #ff6e00;
+    --clrAux4: #018E48;
+    --clrAux5: #660099;
+    --clrAux6: #D9D9D6;
+    --clrAux7: #00bcd4;
+    --clrAux8: #0101b5;
+    --clrAux9: #ffc107;
+    --clrSombra: rgb(66, 64, 64);
+    --clrhvTabla: #74848c36;
+
+    /*VARIABLES TIPOGRAFICAS*/
+    --fontTitulos: 'Kanit', sans-serif;
+    --fontCuerpo: 'Zen Kaku Gothic Antique', sans-serif;
+    --fontBtn: 'Oxygen', sans-serif;
+
+    /*OTRAS VARIABLES*/
+    --radioNavBar: 40px;
+    --radioOther: 15px;
+    --pdBtn: 15px;
+    --pdElements: 10px;
+}
+
+body{
+    margin: 0px;
+    background: var(--clrFondo);
+    font-family: var(--fontCuerpo);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--fontTitulos);
+}
+
+button, input, label{
+    font-family: var(--fontBtn);
+}

@@ -1,0 +1,92 @@
+.contenedor {
+    display: flex;
+    height: 80vh;
+}
+
+.tablero {
+    display: flex;
+    padding: 0.3rem 0.5rem;
+    width: calc(100% - 1rem);
+    height: calc(90% - 0.6rem);
+    overflow-y: auto;
+}
+
+.tablero__celda {
+    width: 100%;
+    height: 65%;
+}
+
+.tablero__celda__editar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 50%;
+    width: 100%;
+}
+
+.tablero__celda__paper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+}
+
+.paper__select {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 10%;
+}
+
+.paper__grafico {
+    width: 100%;
+    height: 80%;
+}
+
+.paper__grafico__grande {
+    width: 85%;
+    height: 80%;
+}
+
+.icono {
+    font-size: 130%;
+    margin-right: 0.5rem;
+    color: var(--clrBtnSecundario);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.icono:hover {
+    transform: rotate(360deg);
+    color: var(--clrAux4);
+}
+
+.icono__agregar {
+    color: var(--clrAux6);
+    font-size: 7rem;
+    cursor: pointer;
+    border-radius: 100%;
+    padding: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.icono__agregar:hover {
+    filter: drop-shadow(0 0 1rem var(--clrSombra));
+    box-shadow: 0rem 0rem 0.5rem var(--clrSombra);
+}
+
+.icono__compartir {
+    color: var(--clrAux4);
+    font-size: 7rem;
+    cursor: pointer;
+    padding: 0;
+    filter: opacity(0.5);
+    transition: all 0.3s ease-in-out;
+}
+
+.icono__compartir:hover {
+    filter: drop-shadow(0 0 0.5rem var(--clrAux4));
+}

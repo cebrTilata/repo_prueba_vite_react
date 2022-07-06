@@ -1,0 +1,72 @@
+/*MODIFICADORES DE ANCHO*/
+
+.href--fullwidth{
+    width: 100%;
+}
+
+.href--80width{
+    width: 80%;
+}
+
+.href--60width{
+    width: 60%;
+}
+
+.href--40width{
+    width: 40%;
+}
+
+.href--20width{
+    width: 20%;
+}
+
+/*MODIFICADOR DE FORMA*/
+
+.href--slimheight{
+    border: 0.8px solid; 
+}
+
+.href--midheight{
+    border: 3px solid; 
+}
+
+.href--fatheight{
+    border: 5px solid; 
+}
+
+/*MODIFICADORES DE COLOR*/
+
+.href--clr-white{
+    background-color: var(--clrBtnTerciario);
+    border-color: var(--clrBtnTerciario);
+}
+
+.href--clr-blue{
+    background-color: var(--clrBtnPrimario);
+    border-color: var(--clrBtnPrimario);
+}
+
+.href--clr-burgundy{
+    background-color: var(--clrBtnSecundario);
+    border-color: var(--clrBtnSecundario);
+}
+
+.href--clr-red{
+    background-color: var(--clrAux1);
+    border-color: var(--clrAux1);
+}
+
+.href--clr-pink{
+    background-color: var(--clrAux2);
+    border-color: var(--clrAux2);
+}
+
+.href--clr-orange{
+    background-color: var(--clrAux3);
+    border-color: var(--clrAux3);
+}
+
+.href--clr-green{
+    background-color: var(--clrAux4);
+    border-color: var(--clrAux4);
+}

@@ -1,0 +1,66 @@
+.dashboard__tablas{
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 40vh;
+    gap: 0.5rem;
+
+    width: 85%;
+    height: 88vh;
+    max-height: auto;
+
+    position: absolute;
+    right: 2.5%;
+    bottom: 0;
+
+    overflow-y: auto;
+}
+
+.container__tabla{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    height: 40vh;
+
+    align-items: flex-start;
+
+    overflow: scroll;
+
+    border-top: 3px solid var(--clrAux4);
+    border-radius: 1rem;
+}
+
+.container__tabla-grande{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    align-items: flex-start;
+
+    overflow: scroll;
+
+    border-top: 3px solid var(--clrAux4);
+    border-radius: 1rem;
+}
+
+.tabla{
+    font-size: 60%;
+
+    width: 100%;
+    height: 90%;
+}
+
+.tabla__titulo{
+    color: var(--clrAux3);
+}
+
+.tabla__columna__titulo{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: var(--clrBtnSecundario);
+}
+
+.tabla__dato{
+    padding: 1rem 0rem; 
+    margin: 0px;
+}

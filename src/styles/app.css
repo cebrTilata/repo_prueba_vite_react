@@ -1,0 +1,18 @@
+.maincontainer{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+}
+
+@media screen and (max-width: 1080px) {
+    body{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    body{
+        font-size: 32px;
+    }
+}

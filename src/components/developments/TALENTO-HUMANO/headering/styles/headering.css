@@ -1,0 +1,62 @@
+.headering{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: absolute;
+    right: 0;
+
+    margin: 0px;
+    margin-bottom: 1rem;
+
+    width: 90%;
+
+    background-color: var(--clrBtnSecundario);
+
+    border-bottom-right-radius: 3rem;
+    border-top-right-radius: 3rem;  
+}
+
+.headering__gradient1{
+    background: linear-gradient(90deg, rgba(248,244,249,1) 5%, var(--clrBtnSecundario) 98%);
+    width: 30%;
+    height: 74.81px;
+}
+
+.headering__saludo{
+    color: var(--clrPrimario);
+}
+
+.headering__user{
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.headering__iconUser{
+    color: var(--clrPrimario);
+    font-size: 160%;
+
+    cursor: pointer;
+}
+
+.headering__iconUser:hover{
+    color: var(--clrAux4);
+}
+
+
+.headering__iconDown{
+    color: var(--clrPrimario);
+    font-size: 110%;
+
+    cursor: pointer;
+}
+
+.headering__iconDown:hover{
+    color: var(--clrAux4);
+}
+
+.headering__nombre{
+    color: var(--clrPrimario);
+}

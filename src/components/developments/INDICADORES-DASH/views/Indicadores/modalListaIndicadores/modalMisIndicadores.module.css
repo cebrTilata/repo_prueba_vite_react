@@ -1,0 +1,101 @@
+.contenedor {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.grilla {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: min-content;
+    gap: 0.5rem;
+    width: 100%;
+    max-height: 100%;
+    overflow-y: scroll;
+}
+
+.card {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 1rem;
+    padding: 0.5rem;
+    border: 1px solid var(--clrAux6);
+    border-top: 3px solid #ffc107;
+    width: calc(100% - 2rem);
+}
+
+.card__titulo {
+    text-align: center;
+    width:100%;
+    font-weight: 700;
+}
+
+.card__operacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--clrBtnPrimario);
+    border-radius: 0.5rem;
+    padding: 0.5rem 0rem;
+}
+
+.caracter {
+    font-weight: lighter;
+    color: var(--clrFondo);
+    margin-right: 0.5rem;
+    cursor: default;
+}
+
+.tablero__operaciones{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: var(--clrAux6);
+    border-radius:1rem;
+    padding: 0rem 1rem;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+
+.contenedor__operaciones{
+    display: flex;
+    width: 50vw;
+    height: 40vh;
+    border-radius:1rem;
+}
+
+.tablero__operadores{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 30%;
+}
+
+.tablero__operadores__operacion{
+    padding: 1rem;
+    border-radius: 1rem;
+    color: var(--clrBtnPrimario);
+    border-color: 3px solid var(--clrAux4);
+    cursor: pointer;
+}
+
+.tablero__operadores__operacion:hover{
+    background-color: var(--clrBtnTerciario);
+}
+
+.elemento__tablero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0.25rem;
+    border: 2px solid var(--clrBtnPrimario);
+    background-color: var(--clrFondo);
+    border-radius: 0.5rem;
+    margin: 0.5rem 0.1rem;
+    height: 5%;
+    cursor:default;
+}

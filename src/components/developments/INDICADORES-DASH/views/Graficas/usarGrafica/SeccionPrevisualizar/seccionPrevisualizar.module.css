@@ -1,0 +1,32 @@
+
+.contenedor__grafica {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(70% - 1px);
+}
+
+.grafica {
+    width: 100%;
+}
+
+.informacion {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    width: 50%;
+    height: calc(70% - 1px);
+}
+
+.informacion__textarea {
+    font-family: 'Lucida Sans Unicode';
+    font-size: 105%;
+    width: 90%;
+    height: 80%;
+    cursor: default;
+}
+
+.area__grafica {
+    width: 50%;
+}

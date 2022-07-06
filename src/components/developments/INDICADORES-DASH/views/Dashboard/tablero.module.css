@@ -1,0 +1,79 @@
+.contenedor{
+    display: flex;
+    position: absolute;
+    margin: 0;
+    margin-top: 10vh;
+    width: 100%;
+    height: 90vh;
+}
+
+.estilo__tablist {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.contenedor__dashboard{
+    display: grid;
+    gap:1rem;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    width: 95%;
+    height: 100%;
+}
+
+.contenedor__grafica{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.grafica{
+    justify-self: center;
+    width: 60%;
+}
+
+.aside__botones{
+    display: flex;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    flex-direction: column;
+    width: 5%;
+    height: 100vh;
+    border-left: 1px solid var(--clrBtnTerciario);
+    align-items: center;
+    justify-content: center;    
+    background-color: var(--clrAux6);
+    z-index: -10;
+}
+
+.btn__añade__indicador {
+    margin-top: 1rem;
+    width: 20%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 140%;
+    background-color: var(--clrBtnPrimario);
+    color: var(--clrFondo);
+    cursor: pointer;
+}
+
+.btn__crea__grafica {
+    margin-top: 1rem;
+    width: 20%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 140%;
+    background-color: var(--clrAux3);
+    color: var(--clrFondo);
+    cursor: pointer;
+}

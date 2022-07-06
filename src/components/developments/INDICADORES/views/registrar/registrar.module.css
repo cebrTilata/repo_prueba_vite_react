@@ -1,0 +1,36 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--clrPrimario);
+
+    border: 1px solid var(--clrBtnTerciario);
+    padding: 1rem;
+    margin: 2rem 0rem;
+}
+
+.formulario__label {
+    text-align: left;
+    font-size: 1rem;
+    color: var(--clrBtnSecundario);
+}
+
+.formulario__input {
+    border: none;
+    border-radius: 1rem;
+    border-bottom: 3px solid var(--clrBtnTerciario);
+    margin-bottom: 1rem;
+    text-align: center;
+}

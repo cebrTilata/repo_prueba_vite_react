@@ -1,0 +1,58 @@
+.pgNotFound{
+    display: flex;
+    width:100vw;
+    height:100vh;
+
+    justify-content:center;
+    align-items:center;
+
+    overflow-y:hidden;
+}
+
+.pgNotFound__sideLeft{
+    width: 40%;
+}
+
+.pgNotFound__img{
+    width: 100%;
+    animation-duration: infinite;
+    animation: rotacion 60s infinite linear;
+}
+
+.pgNotFound__sideRight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.pgNotFound__404{
+    font-size: 6rem;
+    padding: 0px;
+    margin: 0px;
+    color: var(--clrAux1);
+}
+
+.pgNotFound__desc{
+    z-index: 100;
+    color: var(--clrAux3);
+}
+
+.pgNotFound__btn{
+    border: none;
+    border-radius: 1rem;
+    background-color: var(--clrAux4);
+
+    color: var(--clrFondo);
+    font-size: 200%;
+    width: 100%;
+}
+
+@keyframes rotacion {
+    from {
+        transform: rotate(0deg);
+      }
+    to {
+        transform: rotate(359deg);
+      }
+}

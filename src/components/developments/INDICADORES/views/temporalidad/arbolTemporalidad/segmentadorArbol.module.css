@@ -1,0 +1,40 @@
+.contenedor__cortina {
+    z-index: 10;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: darkgray;
+    filter: opacity(0.8);
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    background-color: var(--clrFondo);
+
+    padding: 2rem;
+    border: 3px solid var(--clrBtnTerciario);
+    border-radius: 1rem;
+
+    z-index: 20;
+}
+
+.select{
+    max-height: 100px;
+}
+
+.salir__selector{
+    color: var(--clrAux3);
+    cursor:pointer;
+}
+
+.salir__arbol{
+    position: absolute;
+    top:0;
+    right: calc(1rem + 0%);
+    color: var(--clrBtnTerciario);
+}

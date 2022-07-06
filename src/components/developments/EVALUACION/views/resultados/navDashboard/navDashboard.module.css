@@ -1,0 +1,147 @@
+.Navdashboard{
+    z-index: 1;
+
+    display: flex;
+
+    height: 10vh;
+    width: 90%;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.Navdashboard__referenceEmployee{
+    color: var(--clrAux3);
+    background-color: var(--clrFondo);
+
+    padding: 1rem 1rem;
+
+    border-radius: 0.5rem;
+}
+
+.Navdashboard__ul{
+    display: flex;
+    align-self: center;
+
+    background-color: var(--clrBtnPrimario);
+
+    align-items: center;
+
+    width: 100%;
+    height:100%;
+
+    list-style-type: none;
+}
+
+.Navdashboard__li{
+    display: flex;
+
+    align-self: flex-end;
+    text-decoration: none;
+
+    margin-right: 6rem;
+
+    padding: 1rem;
+
+    font-size: 120%;
+    color: var(--clrPrimario);
+    background: var(--clrBtnPrimario)
+}
+
+.Navdashboard__li:hover{
+   filter: brightness(150%);
+}
+
+.Navdashboard__li__active{
+    border-color: none;
+
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+
+    padding: 1rem 2.5rem;
+
+    color: var(--clrAux3);
+    background-color: var(--clrFondo);
+}
+
+.Navdashboard__subnav{
+    display: flex;
+    align-items: center;
+    background-color: var(--clrPrimario);
+
+    width: 8%;
+    height: 40%;
+    border: none;
+
+    margin-right: 1rem;
+
+    position: absolute;
+    right: 0;
+
+    border-radius: 15rem;
+}
+
+.subnav__ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+
+    margin: 0px;
+    padding: 0px;
+
+    width: 100%;
+}
+
+.subnav__ul > li{
+    display: flex;
+
+    z-index: 10;
+
+    color: var(--clrFondo);
+}
+
+.activeLink{
+    display: flex;
+
+    width: 3rem;
+    height: 3rem;
+
+    border-radius: 100%;
+    border: 3px solid var(--clrPrimario);
+
+    background-color: var(--clrAux3);
+}
+
+.Navdashboard__btn__table{
+    z-index: 2;
+}
+
+.Navdashboard__btn__graph{
+    z-index: 2;
+}
+
+.circulo__izquierda{
+    background-color: var(--clrAux3);
+    width: 3rem;
+    height: 3rem;
+
+    border:3px solid var(--clrPrimario);
+    border-radius: 100%;
+
+    position: absolute;
+    left: 0;
+}
+
+.circulo__derecha{
+    background-color: var(--clrAux3);
+    width: 3rem;
+    height: 3rem;
+
+    border:3px solid var(--clrPrimario);
+    border-radius: 100%;
+
+    position: absolute;
+    right: 0;
+}

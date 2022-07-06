@@ -1,0 +1,8 @@
+:root{
+    --weightHr: 2px;
+}
+
+.href{
+    width: 100%;
+    border: var(--weightHr) solid;
+}

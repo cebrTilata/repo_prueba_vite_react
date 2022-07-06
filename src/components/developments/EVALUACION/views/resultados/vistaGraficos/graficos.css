@@ -1,0 +1,123 @@
+.dashboard__graficos{
+    z-index: 5;
+
+    display:flex;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 90%;
+    height: 90vh;
+    margin-top: 10vh;
+
+    position: absolute;
+    right: 0;
+}
+
+.panel__grafico{
+    width: 30%;
+    max-height: 90vh;
+    height: 90vh;
+
+    overflow-y: scroll;
+}
+
+.panel__principal{
+    position: relative;
+
+    border: 2px solid var(--clrAux3);
+    border-radius: 3rem;
+
+    width: 65%;
+    height: 85vh;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.card__total {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position:absolute;
+    top:0;
+    left:0;
+    width: 20%;
+    min-height: 10%;
+    margin-top: 10%;
+    margin-left:2.5%;
+    color: var(--clrPrimario);
+    border-radius:3px;
+    box-shadow: 5px 5px var(--clrAux6);
+    background-color: var(--clrAux3);
+}
+
+.total {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card__total__texto {
+    font-family: Verdana;
+}
+
+.grafica__miniatura{
+    position: relative;
+    border: 2px solid var(--clrAux2);
+    border-radius: 1rem;
+
+    margin-top: 1rem;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.grafica__miniatura:nth-child(2n){
+    border: 2px solid var(--clrAux3);
+    border-radius: 1rem;
+}
+
+.grafica__miniatura:nth-child(3n){
+    border: 2px solid var(--clrAux4);
+    border-radius: 1rem;
+}
+
+.focused{
+    z-index: 10;
+
+    border: none !important;
+    border-radius: 0rem !important;
+    margin: 0 !important;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    background-color: var(--clrFondo);
+
+
+    width: 88vw;
+    height: 90vh;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.icono__cerrar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 130%;
+    margin-right: 0.5rem;
+    color: var(--clrBtnSecundario);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.icono__cerrar:hover {
+    transform: rotate(360deg);
+    color: var(--clrAux4);
+}
+
+.icono__cerrar--grafico__principal {
+    top: 1%;
+    right: 1%;
+    font-size: 200%;
+}

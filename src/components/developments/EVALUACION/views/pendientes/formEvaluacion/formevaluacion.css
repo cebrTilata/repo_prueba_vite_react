@@ -1,0 +1,158 @@
+
+.cabecera{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
+    width: 100%;
+
+    background: linear-gradient(90deg, rgba(175,39,47,0.7847514005602241) 0%, rgba(175,39,47,1) 52%, rgba(175,39,47,1) 100%);
+
+    color: var(--clrPrimario);
+
+}
+
+.card__comportamiento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem auto;
+    padding-bottom: 3rem;
+
+    position: absolute;
+    top: 10%;
+
+    width: 95%;
+
+}
+
+.titulo{
+    display: flex;
+    justify-self: start;
+
+    font-size: 200%;
+    color: var(--clrAux3);
+
+    width: 100%;
+
+    margin-bottom: 1rem;
+
+    border-bottom: 3px solid;
+}
+
+.subTitulo{
+    color: var(--clrBtnSecundario);
+}
+
+.pregunta{
+    display: flex;
+    justify-self: left;
+
+    width: 100%;
+
+    color: var(--clrFondo);
+}
+
+.cardQuestion{
+    display:flex;
+    align-items:center;
+
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+
+    width: 90%;
+
+    border-radius: 1rem;
+
+    overflow: hidden;
+}
+
+.cardQuestion__question{
+    width: 50%;
+
+    padding: 0.5rem;
+
+    background-color: var(--clrBtnPrimario);
+
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.cardQuestion__answers{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    flex-direction: column;
+
+    width: 40%;
+    padding-left: 5%;
+}
+
+.wrapperInput{
+    display: flex;
+    
+    width: 100%;
+
+    padding: 0.5rem 0rem;
+    margin: 0.5rem 0rem;
+}
+
+.wrapperInput > input{
+    width: 10%;
+}
+
+.wrapperInput > label{
+    color: var(--clrBtnSecundario);
+
+    margin: 0px;
+    width: 90%;
+    height: 100%;
+}
+
+.exit{
+    font-size: 8vh;
+    font-weight: 900;
+
+    color: var(--clrPrimario);
+
+    margin-top: 1rem;
+    margin-right: 1rem;
+
+    cursor:pointer;
+}
+
+.btnSend{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border:none;
+
+    cursor: pointer;
+
+    position: absolute;
+    bottom: 0;
+
+    width: 80%;
+    height: 3rem;
+
+    color: var(--clrPrimario);
+    background-color: var(--clrAux4);
+
+    border-radius: 2rem;
+}
+
+.btnNext:hover{
+    filter: brightness(1.2);
+}
+
+.visible--hidden{
+    visibility: hidden;
+}
+
+.visible--visible{
+    visibility: visible;
+}

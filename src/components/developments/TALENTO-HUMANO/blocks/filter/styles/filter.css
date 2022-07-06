@@ -1,0 +1,35 @@
+.filtro{
+    display:flex;
+    background-color: var(--clrPrimario);
+
+    width: 95%;
+
+    justify-content:space-between;
+    align-items:center;
+
+    border: 1px solid var(--clrAux3);
+
+    border-radius: 15px;
+
+    padding: 1rem;
+}
+
+.filtro__icon{
+    font-size: 200%;
+    cursor:pointer;
+}
+
+.filtro__btnGroup{
+    width: 20%;
+    display:flex;
+    flex-direction: column;
+
+    align-items:center;
+}
+
+.filtro__btn{
+    border: none;
+    width: 60%;
+
+    font-size: 110%;
+}

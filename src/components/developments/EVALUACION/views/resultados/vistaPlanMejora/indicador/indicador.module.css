@@ -1,0 +1,24 @@
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    margin: 0 auto;
+
+    width: 60%;
+}
+
+.resultadosEsperados{
+    border: none;
+
+    width: auto;
+    height:auto;
+
+    resize: vertical;
+
+    margin: 0px;
+}
+
+.resultadosEsperados:focus{
+    border: 1px solid var(--clrBtnTerciario);
+}

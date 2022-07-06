@@ -1,0 +1,20 @@
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    justify-content: center;
+    padding-top: 1rem;
+    gap: 1rem;
+    margin: 0;
+    right: 0;
+    width: 100%;
+    height: calc(90vh - 1rem);
+    overflow-y: scroll;
+}
+
+.contenedor__carga {
+    display: flex;
+    flex-direction: column;
+    width: 5%;
+    height: 100%;
+}

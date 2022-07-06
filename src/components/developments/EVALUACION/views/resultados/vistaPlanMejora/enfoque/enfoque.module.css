@@ -1,0 +1,62 @@
+.contenedorEnfoques{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "descrip textarea indicators"
+                         "indicador indicador indicador";
+
+    align-items: center;
+    justify-content: center;
+
+    column-gap: 1rem;
+
+    width: 100%;
+
+    margin-bottom: 1rem;
+}
+
+.grupoBotones{
+    grid-area:indicators;
+    display: flex;
+    align-items:center;
+}
+
+.labelResultadosEsperados{
+    grid-area:descrip;
+}
+
+.labelResultadosEsperados{
+    grid-area:textarea;
+    width: 100%;
+}
+
+.resultadosEsperados{
+    border: none;
+
+    width: auto;
+    height:auto;
+
+    resize: vertical;
+
+    margin: 0px;
+}
+
+.resultadosEsperados:focus{
+    border: 1px solid var(--clrBtnTerciario);
+}
+
+.boton{
+    background: transparent;
+
+    border: none;
+
+    margin: 1rem;
+
+    height: 10%;
+
+    font-size: 1rem;
+}
+
+.contenedorIndicadores{
+    grid-area:indicador;
+}

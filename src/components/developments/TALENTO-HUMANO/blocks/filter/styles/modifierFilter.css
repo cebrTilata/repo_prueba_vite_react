@@ -1,0 +1,78 @@
+/*MODIFICADORES DE COLOR BACKGROUND*/
+.bckgrndWhiteSmook{
+    background-color: var(--clrFondo);
+}
+
+.bckgrndWhite{
+    background-color: var(--clrPrimario);
+}
+
+.bckgrndBlue{
+    background-color: var(--clrBtnPrimario);
+}
+
+.bckgrndBurgundy{
+    background-color: var(--clrBtnSecundario);
+}
+
+.bckgrndRed{
+    background-color: var(--clrAux1);
+}
+
+.bckgrndPink{
+    background-color: var(--clrAux2);
+}
+
+.bckgrndOrange{
+    background-color: var(--clrAux3);
+}
+
+.bckgrndGreen{
+    background-color: var(--clrAux4);
+}
+
+.bckgrndGray{
+    background-color: var(--clrAux5);
+}
+
+/*MODIFICADORES DE COLOR LETRA*/
+
+.clrWhiteSmook{
+    color: var(--clrFondo);
+}
+
+.clrWhite{
+    color: var(--clrPrimario);
+}
+
+.clrBlue{
+    color: var(--clrBtnPrimario);
+}
+
+.clrBurgundy{
+    color: var(--clrBtnSecundario);
+}
+
+.clrRed{
+    color: var(--clrAux1);
+}
+
+.clrPink{
+    color: var(--clrAux2);
+}
+
+.clrOrange{
+    color: var(--clrAux3);
+}
+
+.clrGreen{
+    color: var(--clrAux4);
+}
+
+.clrGray{
+    color: var(--clrAux5);
+}
+
+.clrViolet{
+    color: var(--clrAux6)
+}

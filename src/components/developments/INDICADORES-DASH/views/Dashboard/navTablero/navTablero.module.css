@@ -1,0 +1,21 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 8%;
+    height: 90vh;
+    background-color: var(--clrPrimario);
+}
+
+.estilo__tablist {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90vh;
+}
+
+/* .botones {
+    font-weight: bold;
+    color: var(--clr9);
+    background-color: gray;
+} */

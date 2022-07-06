@@ -1,0 +1,147 @@
+.modal__Container{
+    z-index: 50;
+
+    position: fixed;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color:whitesmoke;
+
+    filter: opacity(85%);
+}
+
+.modal{
+    z-index: 100;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--clrPrimario);
+
+    width: 50%;
+    height: 85%;
+
+    border-radius: 1rem;
+    box-shadow: 0px 0px 15px 5px var(--clrSombra);
+
+    padding: 0px;
+    margin: 0px auto;
+
+    position: absolute;
+    top: 7.5%;
+        
+    overflow: hidden;
+}
+
+.modal__top{
+    margin: 0px;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--clrAux3);
+}
+
+.modal_p{
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    color: var(--clrPrimario);
+}
+
+.modal_close{
+    padding: 0.5rem 1rem;
+
+    font-size: 200%;
+    color: var(--clrPrimario);
+
+    cursor: pointer;
+}
+
+.modal__body{
+    display: flex;
+    flex-direction: column;
+}
+
+.modal__form{
+    display: flex;
+    flex-direction: column;
+}
+
+.modal__group{
+    display: flex;
+    
+    justify-content: space-around;
+
+    margin-top: 1rem;
+    width: 90%;
+    height: 5rem;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.modal-btnPri{
+    border: none;
+    background-color: var(--clrBtnPrimario);
+    color: var(--clrPrimario);
+    width: 40%;
+    height: 100%;
+
+    border-radius: 3rem;
+
+    margin-right: 5%;
+
+    font-size: 150%
+}
+
+.modal-btnSec{
+    border: none;
+    background-color: var(--clrBtnSecundario);
+    color: var(--clrPrimario);
+    width: 40%;
+    height: 100%;
+
+    border-radius: 3rem;
+
+    margin-left: 5%;
+
+    font-size: 150%
+}
+
+/* label{
+    color: var(--clrBtnPrimario);
+    margin:0.5rem 1rem;
+}
+
+input{
+    width: 80%;
+    border: 3px solid var(--clrAux2);
+    border-radius: 1rem;
+    margin: auto;
+}
+
+input:focus{
+    outline: none;
+    border: 3px solid var(--clrAux3);
+}
+
+textarea{
+    margin: auto;
+
+    padding: 1rem;
+
+    border: 3px solid var(--clrAux2);
+    border-radius: 1rem;
+
+    resize: none;
+
+    width: 80%;
+    height: 150px;
+}
+
+textarea:focus{
+    outline: none;
+    border: 3px solid var(--clrAux3);
+}
+ */

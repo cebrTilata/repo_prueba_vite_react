@@ -1,0 +1,108 @@
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    width: 90%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.tabla {
+    width: 85%;
+    border-collapse: collapse;
+    border-radius: 3px;
+  
+    margin-top: 1rem;
+    margin-right: 1rem;
+  
+    overflow: hidden;
+}
+  
+.tabla__fila__tupla {
+    margin: 1rem 0rem;
+    background-color: var(--clrAux6);
+}
+  
+.tabla__fila__variables {
+    background-color: #af272f;
+    color: white;
+}
+
+.tabla__titulo {
+    padding: 0.5rem;
+}
+
+.icono__info{
+    color: var(--clrFondo);
+    font-size: 120%;
+}
+
+.tabla__fila__registros {
+    text-align: center;
+}
+
+.tabla__fila__tupla:hover {
+    background-color: #dbc2c4;
+    color: var(--clrBtnPrimario);
+}
+
+.tabla__fila__tupla:hover > .tabla__fila__dato{
+    color: var(--clrBtnPrimario);
+}
+
+.tabla__fila__dato {
+    color: var(--clrBtnPrimario);
+    padding: 1rem;
+}
+
+.boton__crear{
+    border: none;
+    border-radius: 3px;
+    background-color: var(--clrBtnPrimario);
+    color: var(--clrFondo);
+    padding: 1rem 0.5rem;
+    margin-top: 1rem;
+}
+
+.boton__editar{
+    cursor:pointer;
+    
+}
+
+
+.formulario{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1rem;
+
+    align-items: center;
+
+    background-color: var(--clrPrimario);
+
+    border: 1px solid var(--clrBtnTerciario);
+    padding: 2rem;
+}
+
+.formulario__label{
+    text-align: left;
+    font-size: 1rem;
+    color: var(--clrBtnSecundario);
+}
+
+.formulario__input{
+    border:none;
+    border-radius: 1rem;
+    border-bottom: 3px solid var(--clrBtnTerciario);
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.formulario__wrapper{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 20% 1fr;
+    width: 100%;
+}

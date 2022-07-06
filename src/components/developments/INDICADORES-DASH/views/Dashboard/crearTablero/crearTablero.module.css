@@ -1,0 +1,95 @@
+.contenedor {
+    display:flex;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    min-height:70%;
+    max-height: 85%;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(54%,-50%);
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 35%;
+    height: 100%;
+    gap:1rem;
+}
+
+.formulario__label {
+    width: 90%;
+    text-align: left;
+}
+
+.formulario__input {
+    width: 90%;
+    border: 1px solid var(--clrBtnPrimario);
+    border-radius: 1rem;
+}
+
+.formulario__textarea {
+    width: 90%;
+    height: 50%;
+    border: 1px solid var(--clrBtnPrimario);
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.formulario__selector {
+    width: 90%;
+}
+
+.compartir {
+    cursor:pointer;
+}
+
+.tabla {
+    width: 55%;
+    max-height: 60vh;
+    column-gap: 3rem;
+    overflow-y: scroll;
+}
+
+.tabla__fila:hover {
+    background-color: var(--clrAux6);
+}
+
+.btn__eliminar{
+    font-size: 1.5rem;
+    color:var(--clrAux1);
+    cursor:pointer;
+}
+
+.btn__eliminar:hover{
+    animation: salto 0.5s linear;
+}
+
+.previsualizacion {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    height: auto;
+}
+
+@keyframes salto {
+    0% {
+        transform: translateY(0%);
+    }
+    25% {
+        transform: translateY(-15%);
+    }
+    50% {
+        transform: translateY(0%);
+    }
+    75% {
+        transform: translateY(15%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}

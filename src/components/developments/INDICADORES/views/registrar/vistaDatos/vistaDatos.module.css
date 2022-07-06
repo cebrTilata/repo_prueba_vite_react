@@ -1,0 +1,117 @@
+.formulario__label {
+    text-align: left;
+    font-size: 1rem;
+    color: var(--clrBtnSecundario);
+}
+
+.formulario__input {
+    border: none;
+    border-radius: 1rem;
+    border-bottom: 3px solid var(--clrBtnTerciario);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.contenedor__selector__multiple {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0rem;
+}
+
+.selector__multiple {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 35%;
+    padding: 0rem 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 0.2rem;
+    border-bottom: 3px solid var(--clrBtnTerciario);
+    border-radius: 0.5rem;
+}
+
+.selector__multiple:hover {
+    background-color: var(--clrAux6);
+}
+
+.selector__span {
+    color: var(--clrBtnTerciario);
+}
+
+.selector__icono {
+    cursor: pointer;
+    font-size: 120%;
+    color: var(--clrAux4);
+}
+
+.selector__lista {
+    position: absolute;
+    top: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    width: 35%;
+    padding: 0rem 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 0.2rem;
+    border-radius: 0.5rem;
+    background-color: var(--clrAux6);
+}
+
+.selector__lista>div {
+    width: 100%;
+    list-style: none;
+    padding: 0.5rem 0.2rem;
+    margin: 0;
+}
+
+.selector__lista>div:hover {
+    background-color: var(--clrFondo);
+    border-radius: 0.5rem;
+}
+
+.campo__formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.campo__totales {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.total__modificable {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 1rem;
+}
+
+.total__dinamico {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid__input {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.boton{
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border:none;
+    color:var(--clrFondo);
+    background-color: var(--clrBtnPrimario);
+}

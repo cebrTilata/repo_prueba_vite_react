@@ -1,0 +1,6 @@
+.contenedor {
+    display: flex;
+    align-items: center;
+    width: 70vw;
+    height: 60vh;
+}

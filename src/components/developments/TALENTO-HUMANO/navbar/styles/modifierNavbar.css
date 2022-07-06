@@ -1,0 +1,140 @@
+/*MODIFICADORES DE COLOR BACKGROUND*/
+.bckgrndWhiteSmook{
+    background-color: var(--clrFondo);
+}
+
+.bckgrndWhite{
+    background-color: var(--clrPrimario);
+}
+
+.bckgrndBlue{
+    background-color: var(--clrBtnPrimario);
+}
+
+.bckgrndBurgundy{
+    background-color: var(--clrBtnSecundario);
+}
+
+.bckgrndRed{
+    background-color: var(--clrAux1);
+}
+
+.bckgrndPink{
+    background-color: var(--clrAux2);
+}
+
+.bckgrndOrange{
+    background-color: var(--clrAux3);
+}
+
+.bckgrndGreen{
+    background-color: var(--clrAux4);
+}
+
+.bckgrndGray{
+    background-color: var(--clrAux5);
+}
+
+/*MODIFICADORES DE COLOR LETRA*/
+
+.clrWhiteSmook{
+    color: var(--clrFondo);
+}
+
+.clrWhite{
+    color: var(--clrPrimario);
+}
+
+.clrBlue{
+    color: var(--clrBtnPrimario);
+}
+
+.clrBurgundy{
+    color: var(--clrBtnSecundario);
+}
+
+.clrRed{
+    color: var(--clrAux1);
+}
+
+.clrPink{
+    color: var(--clrAux2);
+}
+
+.clrOrange{
+    color: var(--clrAux3);
+}
+
+.clrGreen{
+    color: var(--clrAux4);
+}
+
+.clrViolet{
+    color: var(--clrAux5)
+}
+
+.clrGray{
+    color: var(--clrAux6);
+}
+
+/*MODIFICADORES DE TAMAÑO DE LETRA*/
+.fontSize110{
+    font-size: 110%;
+}
+
+.fontSize120{
+    font-size: 120%;
+}
+
+.fontSize140{
+    font-size: 140%;
+}
+
+.fontSize160{
+    font-size: 160%;
+}
+
+.pdngX--0rem{
+    padding-right: 0rem;
+    padding-left: 0rem;
+}
+
+.pdngY--0rem{
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+/*MODIFICADOR DE VISIBILIDAD*/
+.active {
+    width: 120%;
+    padding: 1rem 0rem;
+    border: none;
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+
+    -webkit-box-shadow: 10px 0 10px -2px #3d3d3d;
+                box-shadow: 10px 0 10px -2px #3d3d3d;
+
+    background-color: var(--clrBtnSecundario);
+}
+
+.active > .icon.fontSize140{
+    display: none;
+}
+
+.active:nth-child(1){
+    font-size: 120%;
+    color: var(--clrPrimario);
+}
+
+.displayNone{
+    display: none;
+}
+
+.visibilityVisible{
+    display:visible;
+}
+
+.visibilityHidden{
+    display:hidden;
+}

@@ -1,0 +1,357 @@
+
+/*ESTILO EXPANDIDO*/
+.nav{
+    z-index: 10;
+
+    display:flex;
+    justify-content: flex-start;
+
+    background-color: var(--clrPrimario);
+
+    position: fixed;
+    left: 0;
+
+    margin: 0px;
+    margin-right: 1rem;
+    padding: 0px;
+
+    width: 10%;
+    min-height: 1200px;
+    max-height: auto;
+
+    border-right: 1px solid var(--clrBtnTerciario);
+
+}
+
+.nav__ul{
+    display:flex;
+    flex-direction:column;
+
+    justify-content:flex-start;
+    align-items:center;
+
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    list-style: none;
+}
+
+.nav__contenedorLogotipo{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+    width: 100%;
+
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.nav__contenedorLinks{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 1rem;
+    height: calc(45vh - 1rem);
+    width: 100%;
+}
+
+.nav__contenedorOpciones{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+    position: absolute;
+    top: 70vh;
+
+    margin: 1rem 0rem;
+
+    width: 100%;
+}
+
+.nav__logotipo{
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 100%;
+}
+
+.nav__button{
+    background-color: var(--clrAux6);
+
+    width: 50%;
+
+    margin-top: 1rem;
+    padding: 0px;
+
+    border-radius: 15px;
+    border: none;
+}
+
+.nav__button__bars{
+    font-size: 2rem;
+
+    color: var(--clrBtnSecundario);
+}
+
+.nav__li{
+
+    justify-content: center;
+    margin: 0px;
+    padding: 1.75rem 0rem;
+
+    width: 100%;
+
+    text-align: center;
+
+    list-style: none;
+
+    font-size:120%;
+}
+
+.nav__liLogin{
+    justify-content: center;
+    align-items:center;
+    margin: 0px;
+    padding: 2rem 0rem;
+
+    width: 100%;
+
+    text-align: center;
+
+    list-style: none;
+
+    font-size:120%;
+}
+
+.nav__liLogout{
+
+    justify-content: center;
+    margin: 0px;
+    padding: 2rem 0rem;
+
+    width: 100%;
+
+    text-align: center;
+
+    list-style: none;
+
+    font-size:120%;
+}
+
+
+.nav__a{
+
+    justify-content: center;
+    margin: 0px;
+
+    width: 100%;
+
+    text-align: center;
+
+    font-size:130%;
+
+    text-decoration: none;
+}
+
+.nav__p{
+    font-size: 80%;
+    margin: 0px;
+    color: var(--clrBtnPrimario);
+}
+
+.nav__login{
+    font-size:100%;
+}
+
+.nav__login:nth-child(1){
+    display:flex;
+    align-items:center;
+    padding: 0px;
+    margin: 0px auto;
+    text-decoration: none;
+}
+
+.nav__login:nth-child(2){
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav__login__icon{
+    font-size:120%;
+}
+
+.nav__logout{
+    font-size:160%;
+}
+
+.nav__logout:nth-child(1){
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.nav__logout:nth-child(2){
+    padding: 0px;
+    margin: 0px;
+}
+
+.activado{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-decoration: none;
+
+    width: 120%;
+    padding: 1rem 0rem;
+    border: none;
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+
+    -webkit-box-shadow: 10px 0 10px -2px #3d3d3d;
+                box-shadow: 10px 0 10px -2px #3d3d3d;
+
+    background-color: var(--clrBtnSecundario);
+}
+
+.activado > p{
+    color: var(--clrFondo);
+    font-size: 100%;
+}
+
+.dropdown{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.dropdown__content{
+    display:none;
+    position: absolute;
+}
+
+.dropdown__content > div:hover{
+    color: var(--clrAux3);
+}
+
+.dropdown__content > div > a{
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown__content{
+    display:flex;
+    flex-direction: column;
+
+    position: absolute;
+    top:0%;
+    left: 100%;
+
+    margin: 0;
+    width: 100%;
+
+    border:1px solid var(--clrBtnTerciario);
+    border-radius: 3px;
+
+    z-index: 10;
+
+    background-color: var(--clrFondo);
+    cursor: pointer;
+}
+
+/*ESTILO CONTRAIDO*/
+
+
+.navContraido{
+    z-index: 10;
+
+    display:flex;
+    justify-content: flex-start;
+
+    background-color: var(--clrPrimario);
+
+    position: fixed;
+    left: 0;
+
+    margin: 0px;
+    margin-right: 1rem;
+    padding: 0px;
+
+    width: 5%;
+    min-height: 1000px;
+    max-height: auto;
+
+    border-right: 1px solid var(--clrBtnTerciario);
+}
+
+.nav__buttonContraido{
+    position: relative;
+
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+
+    background-color: var(--clrAux6);
+
+    width: 100%;
+    height: 10%;
+
+    margin-top: 0rem;
+    padding: 0px;
+
+    border: none;
+}
+
+.noDisplay{
+    display: none;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media (min-width: 1024px) {
+    
+    .nav__contenedorOpciones{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    
+        margin: 0px;
+    
+        width: 100%;
+    }
+
+    .nav__liLogin{
+        display: flex;
+
+        justify-content: center;
+        margin: 0px;
+        padding: 1rem 0rem;
+    
+        width: 100%;
+    
+        text-align: center;
+    
+        list-style: none;
+    
+        font-size:120%;
+    }
+    
+    .nav__liLogout{
+    
+        justify-content: center;
+        margin: 0px;
+        padding: 1rem 0rem;
+    
+        width: 100%;
+    
+        text-align: center;
+    
+        list-style: none;
+    
+        font-size:120%;
+    }
+
+}

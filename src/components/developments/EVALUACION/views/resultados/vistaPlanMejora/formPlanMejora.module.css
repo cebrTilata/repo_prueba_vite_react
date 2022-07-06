@@ -1,0 +1,126 @@
+.contenedorListado{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "";
+    justify-content:center;
+    align-items: center;
+
+    position: absolute;
+    right: 0;
+    top: 10vh;
+    width: 90%;
+    min-height: 90vh;
+    max-height: auto;
+    row-gap: 1rem;
+
+    overflow-y: scroll;
+}
+
+.titulo{
+    display:flex;
+
+    align-items: center;
+
+    margin-left: 10%;
+
+    text-transform: capitalize;
+    color:var(--clrBtnPrimario);
+}
+
+.descripcion{
+    color: var(--clrBtnTerciario);
+}
+
+.listaIndicadores{
+    color: var(--clrBtnTerciario);
+    list-style: lower-latin;
+}
+
+.contenedorFormulario{
+    display:flex;
+    justify-content: center;
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 90%;
+    min-height: 90vh;
+    max-height: auto;
+
+    overflow-y: scroll;
+}
+
+.formulario{
+    display:flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+    position: absolute;
+
+    width: 80%;
+}
+
+.labelResultadosEsperados{
+    width: 100%;
+}
+
+.contenedorEncabezadoEnfoques{
+    display:flex;
+}
+
+.iconoAgregar{
+    font-size:250%;
+
+    cursor: pointer;
+}
+
+.iconoAgregar:hover{
+    
+    color: var(--clrAux3);
+
+}
+
+.resultadosEsperados{
+    border: none;
+
+    width: 100%;
+    height:auto;
+
+    resize: vertical;
+
+    margin: 0px;
+}
+
+.resultadosEsperados:focus{
+    border: 1px solid var(--clrBtnTerciario);
+}
+
+.btnCrear{
+    background: var(--clrBtnTerciario);
+
+    color: var(--clrFondo);
+
+    border-radius: 1rem;
+
+    height: 10%;
+
+    font-size: 1rem;
+
+    border: none;
+
+    position: absolute;
+
+    top: calc((100% - 10%) / 2);
+}
+
+.btnSalir{
+    background: transparent;
+
+    border: none;
+
+    margin: 1rem;
+
+    height: 10%;
+
+    font-size: 1rem;
+}
